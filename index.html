@@ -1,1 +1,31 @@
-{\rtf1}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <title>Video Background</title>
+</head>
+<body>
+
+  <section class="w-full h-screen">
+      <div class="absolute inset-0 z-negative">
+        <video src="video.mp4" autoplay muted loop class="absolute w-full h-full object-cover"/>
+      </div>
+
+      <header class="absolute px-4 py-8 flex justify-between items-center">
+        <a href="#"><img src="swords.svg" class="w-20 ml-4 lg:ml-0" alt="logo"></a>
+      </header>
+  
+      <div class="absolute justify-center items-center text-start lg:mt-56 lg:px-16 px-4 py-4">
+        <div class="md:pl-8">
+          <p class="text-white md:text-6xl text-4xl tracking-wide font-semibold leading-none">Gabol in ze</p>
+          <h1 class="text-white md:text-6xl text-4xl font-bold font-sans m-0 md:leading-none">Gabol.</h1>
+          <button class="bg-gray-700 bg-opacity-75 border-white py-4 px-8 hover:bg-white hover:text-gray-800">button.</button>
+          <button class="bg-gray-700 bg-opacity-75 border-white py-4 px-8 hover:bg-white hover:text-gray-800">button2.</button>
+        </div>
+      </div>
+</section>
+
+</body>
+</html>
